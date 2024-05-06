@@ -282,6 +282,8 @@ Perform synthesis
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/8852766c-8484-4f2d-8e08-844d88e3294e)
 
+Let us do timing driven synthesis
+
 
 
 
