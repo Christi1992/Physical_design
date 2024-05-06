@@ -124,7 +124,31 @@ Open the inverter magic file sky130_inv.mag
 
 ![Extracting sky130_inv into sky130_inv ext](https://github.com/Christi1992/Physical_design/assets/168098124/30b0c757-4ea7-4998-bd9d-ffb9d3b1c6dd)
 
+**Do a spice extraction**
+
 ![extracted](https://github.com/Christi1992/Physical_design/assets/168098124/8d537849-8d5e-45c7-8c1a-8da913a55c8f)
+
+Below is the screenshot of the extracted spice file
+
+![Spice file created](https://github.com/Christi1992/Physical_design/assets/168098124/b6569a27-a5db-427d-90b5-f7c51cec95ec)
+
+Perform the spice simulation using the below commands
+* ngspice sky130_inv.spice
+
+![Spice simulation result](https://github.com/Christi1992/Physical_design/assets/168098124/82f6c19f-cf92-4836-9e2d-8a32e5ae7fd5)
+
+To observe the waveform execute the below command
+* plot y vs time a
+
+![output plot of spicce](https://github.com/Christi1992/Physical_design/assets/168098124/d3dc28c0-a954-496a-9fa2-37300fdc72ba)
+
+Modify the spice file like below and increase C2 to 2fF and observe the change in waveform
+
+![Increased load to 2fF](https://github.com/Christi1992/Physical_design/assets/168098124/745f69db-dace-416b-b4e1-de18b2eb1f72)
+
+![Plot of 2ff](https://github.com/Christi1992/Physical_design/assets/168098124/4ad27f6b-6cdc-4255-abf0-0008203d3e0d)
+
+
 
 
 
