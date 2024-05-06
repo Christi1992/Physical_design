@@ -148,7 +148,49 @@ Modify the spice file like below and increase C2 to 2fF and observe the change i
 
 ![Plot of 2ff](https://github.com/Christi1992/Physical_design/assets/168098124/4ad27f6b-6cdc-4255-abf0-0008203d3e0d)
 
+Now we need to calculate the following:
+* Rise time: Time taken by the signal to move from 20% to 80% of its final value
+* Rise time = (2.1933 - 2.1306)*10^-9 = 62.7 ps
+Below are the correspoding screenshots
 
+# 20 %
+
+![20 percent of 3 3V rise transition](https://github.com/Christi1992/Physical_design/assets/168098124/81a0fdcd-897a-4b79-9e8f-cbd5fb260ddc)
+
+# 80%
+![80 percent of rise transition](https://github.com/Christi1992/Physical_design/assets/168098124/e56262e0-6903-4b1a-aeaf-926ac8b8f4cf)
+
+![Correct rise values](https://github.com/Christi1992/Physical_design/assets/168098124/d6959262-b612-4c69-bdb9-2c34090550b9)
+
+* Fall time: Time take for the signal to transition from 80% to 20% of its final value
+* Fall time = (4.0955 - 4.05353)*10^-9 = 41.97 ps
+Below are the corresponding screenshots
+
+![fall transition 20%](https://github.com/Christi1992/Physical_design/assets/168098124/d481f6af-b1e1-4ea2-90e3-1dea949980d3)
+
+![fall transition 80%](https://github.com/Christi1992/Physical_design/assets/168098124/13dcaffb-6276-4d6a-be99-66986f196baf)
+
+![fall transition](https://github.com/Christi1992/Physical_design/assets/168098124/648dc525-3eb8-4137-81a9-51585327044d)
+
+* Propagation delay = (2.1537 - 2.1048)*10^-9 = 48.9ps
+
+![50 % of input and output for cell rise delay](https://github.com/Christi1992/Physical_design/assets/168098124/f66fff87-0df9-41fc-ab9a-e84fe566be26)
+
+![Cell rise delay values](https://github.com/Christi1992/Physical_design/assets/168098124/99903a33-30ce-44e3-ad5c-e4c1e09b2ca8)
+
+* Cell fall delay = (4.07763 - 4.0499)*10^-9 = 27.73ps
+
+![fall delay values](https://github.com/Christi1992/Physical_design/assets/168098124/5c87399b-1f89-416b-a27a-033870a70bd3)
+
+# DRC correction and rules
+For DRC correction download the files using the below commands
+
+* wget http://opencircuitdesign.comopen_pdks/archive/drc_tests.tgz
+
+![DRC dowload complete](https://github.com/Christi1992/Physical_design/assets/168098124/5dcebe8a-e253-4c2c-99f3-d6a80cdb4977)
+
+
+   
 
 
 
