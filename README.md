@@ -106,6 +106,24 @@ I have attached a screenshot of the above explained process
 
 ![Performed git clone](https://github.com/Christi1992/Physical_design/assets/168098124/f6d4f27c-a941-40ec-bf33-1304e95ec089)
 
+![Copied 130tech file to vsdstdcelldesign directory](https://github.com/Christi1992/Physical_design/assets/168098124/c3205906-2eb1-406a-9736-5293f886f059)
+
+Open the inverter magic file sky130_inv.mag 
+
+![Magic command to load inverter cell](https://github.com/Christi1992/Physical_design/assets/168098124/bbe26d09-a86d-4f2c-b439-4fde43ab4018)
+
+**Below is the inverter layout**
+
+![Loaded inv cell](https://github.com/Christi1992/Physical_design/assets/168098124/52406bf8-c8aa-40a4-9e87-80a722b6c199)
+
+**NMOS of inverter**
+
+![NMOS](https://github.com/Christi1992/Physical_design/assets/168098124/aea7ad0e-936d-427c-b3b3-96d03f223eec)
+
+**PMOS of inverter**
+
+![Extracting sky130_inv into sky130_inv ext](https://github.com/Christi1992/Physical_design/assets/168098124/30b0c757-4ea7-4998-bd9d-ffb9d3b1c6dd)
+
 
 
 
