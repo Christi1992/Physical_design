@@ -18,6 +18,7 @@ We have to do data preparation for PICORV32A. The corresponding screenshot is sh
 
 Execute the below commands to run synthesis
 * docker
+* prep -design picorv32a
 * ./flow.tcl -interactive
 * run_synthesis
 The below is the logs of synthesis
@@ -42,6 +43,7 @@ Floorplan is the process of creating the core area, die area, macro placement, I
 Execute the below commands to run the floorplan:
 * docker
 * ./flow.tcl -interactive
+* prep -design picorv32a
 * run_floorplan
 After executing the above commands a floorplan def file will be generated. Below is the screenshot of the floorplan def file.
 
@@ -76,6 +78,7 @@ Next we have to run placement stage.
 Execute the below commands 
 * docker
 * ./flow.tcl -interactive
+* prep -design picorv32a
 * run_placement
 
 After exxecuting these commands we will get the placement def file in the corresponding results directory
@@ -259,6 +262,13 @@ Contents of LEF file
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/c217954f-1243-4a0f-80fa-0c348775c500)
 
+Plug this left file into PICORV32A design
+
+Copy the lef file into SRC directory of PICORV
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/9ca9018d-b821-40fb-bb1f-2fa734b5469c)
+
+Now we are supposed to run synthesis
 
 
 
