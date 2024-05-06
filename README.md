@@ -51,6 +51,15 @@ Below is the history of the commands executed so far
 
 ![history](https://github.com/Christi1992/Physical_design/assets/168098124/a4eb73ba-33ad-4c6d-8109-179fb61b13df)
 
+Now we need to look into the layout of the floorplan def, for which we need magic tool
+
+Execute the below command to open magic
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130Alibs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def def read picorv32a.floorplan.def &
+
+Below is the correspoding screenshot attached.
+
+![Opened magic](https://github.com/Christi1992/Physical_design/assets/168098124/c56b61d4-8345-4e4c-aac5-9353f31cfe2e)
+
 
 
 
