@@ -269,7 +269,13 @@ Copy the lef file into SRC directory of PICORV
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/9ca9018d-b821-40fb-bb1f-2fa734b5469c)
 
 Now we are supposed to run synthesis
+First copy the libraries into src folder
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/292f1b86-d80e-413f-a4e3-c338e809f011)
+
+Perform synthesis
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/2dc3b0b3-32bb-49aa-81be-ef97c0f1be55)
 
 
 
