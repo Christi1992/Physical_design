@@ -244,8 +244,20 @@ Now check if ports A and Y are on the intersection of Li tracks
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/afe6fcec-31f6-447d-8737-11b826064530)
 
+# Convert magic layout to std cell lef
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/391908f0-d950-4db1-99fa-168672772b85)
 
+Open the saved .mag using magic
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/afe5a303-fba1-4c07-b647-1ae511be2421)
+
+Create a lef file
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/40b0ff4e-98e9-4d74-9656-b8764aa99d99)
+
+Contents of LEF file
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/c217954f-1243-4a0f-80fa-0c348775c500)
 
 
 
