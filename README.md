@@ -87,6 +87,16 @@ Below is the layout after placement
 
 ![Placement magic file](https://github.com/Christi1992/Physical_design/assets/168098124/b518ad05-a02b-41f3-bcb4-8bc84aaf762b)
 
+# Day 3 - Design library cell using magic layout and Ngspice characterisation
+
+Run synthesis with an environment settings change for IO pins distance and observe the layout
+Below is thee screenshot for the set of commands to do them 
+
+![Floorplan after IO2](https://github.com/Christi1992/Physical_design/assets/168098124/b6cce208-ce8b-4d10-8896-083b56d3e829)
+
+
+
+
 
 
 
