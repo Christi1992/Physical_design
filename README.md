@@ -277,6 +277,15 @@ Perform synthesis
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/2dc3b0b3-32bb-49aa-81be-ef97c0f1be55)
 
+Run the below commands to improve synthesis 
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/58a5f9b0-40cb-4eda-ba07-53f21600a51f)
+
+We can run floorplan now
+run_floorplan
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/5d9e1361-c4e5-4b3f-a798-b8768b25d698)
+
 
 
 
