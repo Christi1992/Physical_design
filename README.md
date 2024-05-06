@@ -273,18 +273,14 @@ First copy the libraries into src folder
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/292f1b86-d80e-413f-a4e3-c338e809f011)
 
+Make these changees in the script 
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/1455424a-aff9-4889-86af-da9219f9c9fe)
+
 Perform synthesis
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/d2e40a47-6a2c-458b-b792-4120db61f196)
 
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/2dc3b0b3-32bb-49aa-81be-ef97c0f1be55)
-
-Run the below commands to improve synthesis 
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/58a5f9b0-40cb-4eda-ba07-53f21600a51f)
-
-We can run floorplan now
-run_floorplan
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/5d9e1361-c4e5-4b3f-a798-b8768b25d698)
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/8852766c-8484-4f2d-8e08-844d88e3294e)
 
 
 
