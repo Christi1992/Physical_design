@@ -94,6 +94,20 @@ Below is thee screenshot for the set of commands to do them
 
 ![Floorplan after IO2](https://github.com/Christi1992/Physical_design/assets/168098124/b6cce208-ce8b-4d10-8896-083b56d3e829)
 
+We are basically changing the equidistance spacing of the IO pins. We can observe this change done using magic layout
+
+![IO pins not equidistant after the setting change](https://github.com/Christi1992/Physical_design/assets/168098124/1d438c55-ca74-40f0-a9c2-f9668b03cbea)
+
+The next task is to clone the inverter from Githouse repository
+Execute the below commad in your work directory
+* git clone https://github.com/nickson-jose/vsdstdcelldesign.git
+
+I have attached a screenshot of the above explained process
+
+![Performed git clone](https://github.com/Christi1992/Physical_design/assets/168098124/f6d4f27c-a941-40ec-bf33-1304e95ec089)
+
+
+
 
 
 
