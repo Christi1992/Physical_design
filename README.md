@@ -226,9 +226,14 @@ Load nwell.mag and execute the following commands
 # Lab challenge exercise to find the missing or incorrect rule that should be fixed
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/8a542e9c-d2be-4c8f-87ed-6f86b43ba946)
 
-   
+Make the below changes mentioend
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/741523a1-732b-4339-9bc0-899129b26b7b)
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/7dcf1ea7-8439-4bdb-9d1c-cf05ab7237d0)
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/3afabe61-6f05-4818-a3d8-c77a4f1a8f48)
+
+# Day 4 - Prelayout design setup and importance of a good clock tree 
 
 
 
