@@ -189,6 +189,34 @@ For DRC correction download the files using the below commands
 
 ![DRC dowload complete](https://github.com/Christi1992/Physical_design/assets/168098124/5dcebe8a-e253-4c2c-99f3-d6a80cdb4977)
 
+![drc files](https://github.com/Christi1992/Physical_design/assets/168098124/6737aa0c-6d74-44e8-95c1-227e121ff6a2)
+
+To use the magic tool
+* magic -d XR
+Open the met3.mag file
+
+![met3 meg file](https://github.com/Christi1992/Physical_design/assets/168098124/72b27169-54e4-4910-a0b4-d4be6de1bb59)
+
+To see contact cuts 
+* cif see VIA2
+
+![cif see via2](https://github.com/Christi1992/Physical_design/assets/168098124/a0a639ce-b131-484e-9330-1e136c7242c7)
+
+# Fixing poly.9 error
+
+![Load poly](https://github.com/Christi1992/Physical_design/assets/168098124/7c391fd4-5f1d-48da-8b1a-95b90267163f)
+
+![box spacing micron distance](https://github.com/Christi1992/Physical_design/assets/168098124/fe29f8db-95b0-4c71-a8f9-b86c51a6307d)
+
+To fix the poly spacing error make the below changes in the tech file
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/db9b522e-bcc4-42d8-8aaa-0bdb676f856d)
+
+Now load the tech file and do check drc to fix the poly.9 error
+
+![fixed poly error](https://github.com/Christi1992/Physical_design/assets/168098124/27b4b22a-8752-41b5-94f6-9b4dc245aefe)
+
+
 
    
 
