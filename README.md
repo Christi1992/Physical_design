@@ -223,7 +223,8 @@ Load nwell.mag and execute the following commands
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/b06700a4-2105-4420-83c5-294cf5974440)
 
-# lab challenge exercise to find the missing or incorrect rule that should be fixed
+# Lab challenge exercise to find the missing or incorrect rule that should be fixed
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/8a542e9c-d2be-4c8f-87ed-6f86b43ba946)
 
    
 
