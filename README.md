@@ -319,8 +319,13 @@ Result of sta
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/eae9d318-6a4c-4178-bee8-f81f1adc622d)
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/0517ec89-a85e-418c-af76-61ad81664770)
 
+Make a settings change in fanout and again do synthesis
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/e50f469f-1eab-48e2-ba84-9259125a4235)
 
+Slack after STA
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/c5f1a8fd-12ea-458e-9573-ed4dd6e0ae04)
 
 
 
