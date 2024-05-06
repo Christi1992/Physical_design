@@ -216,7 +216,14 @@ Now load the tech file and do check drc to fix the poly.9 error
 
 ![fixed poly error](https://github.com/Christi1992/Physical_design/assets/168098124/27b4b22a-8752-41b5-94f6-9b4dc245aefe)
 
+# Lab challenge exercise to describe DRC error as geometric construct
+Load nwell.mag and execute the following commands
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/151da57d-644a-45a7-8156-c08fba775257)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/b06700a4-2105-4420-83c5-294cf5974440)
+
+# lab challenge exercise to find the missing or incorrect rule that should be fixed
 
    
 
