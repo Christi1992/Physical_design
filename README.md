@@ -282,11 +282,42 @@ Perform synthesis
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/8852766c-8484-4f2d-8e08-844d88e3294e)
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/038f949e-e37b-46d6-a461-85bd86d9c7b4)
+
+
 Let us do timing driven synthesis
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/cdc24417-5014-42f4-bec7-5e2e97de78c7)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/95d017ed-0a1e-40e6-b65c-abe5f447a41d)
 
 
+Run floorplan now
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/a55ed3a2-37f1-4511-8dff-d72495d83c01)
+
+Run placement now
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/f1517b7b-210e-4dc0-9a94-fd949a06a8f8)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/63bf364a-6643-4be9-8591-63006afa554e)
+
+Cells are abutted - Power and ground connections are shared
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/17df5c44-04d9-4fc3-8fc2-90ec785feda4)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/689d6a0b-cb4d-42be-b45c-8277206f4575)
+
+Now we have to do sta
+Copied pre_sta.conf and base.sdc
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/78b12818-3bc3-455b-9931-f7f287ebab16)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/3481661f-3cf6-4d34-b23c-9c634984db56)
+
+Result of sta
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/eae9d318-6a4c-4178-bee8-f81f1adc622d)
 
 
 
