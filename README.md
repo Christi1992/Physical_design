@@ -39,5 +39,19 @@ The below is the screenshot of the timing report after synthesis
 
 Floorplan is the process of creating the core area, die area, macro placement, IO pin placement, physical cell placement. Sanity checks are performed on the netlist generated, library files and SDC files. Sometimes powerplan is also done together after macro placement. We have to generate a def file after floorplan to get the locations of the macros and IO pin locations. 
 
+Execute the below commands to run the floorplan
+docker
+./flow.tcl -interactive
+run_floorplan
+After executing the above commands a floorplan def file will be generated. Below is the screenshot of the floorplan def file.
+
+![generated floorplan def](https://github.com/Christi1992/Physical_design/assets/168098124/841a4c41-9f59-42e3-aaad-87b303204e70)
+
+Below is the history of the commands executed so far 
+
+![history](https://github.com/Christi1992/Physical_design/assets/168098124/a4eb73ba-33ad-4c6d-8109-179fb61b13df)
+
+
+
 
 
