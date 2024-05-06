@@ -234,7 +234,7 @@ Make the below changes mentioend
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/3afabe61-6f05-4818-a3d8-c77a4f1a8f48)
 
 # Day 4 - Prelayout design setup and importance of a good clock tree 
-
+Main requirement of P&R: The input and output ports must lie on the intersection of the vertical and horizontal tracks. The width of the standard cell must be odd multiple of track pitch. The height of the standdard cell must be odd multiple of the track vertical pitch.
 
 
 
