@@ -39,10 +39,10 @@ The below is the screenshot of the timing report after synthesis
 
 Floorplan is the process of creating the core area, die area, macro placement, IO pin placement, physical cell placement. Sanity checks are performed on the netlist generated, library files and SDC files. Sometimes powerplan is also done together after macro placement. We have to generate a def file after floorplan to get the locations of the macros and IO pin locations. 
 
-Execute the below commands to run the floorplan
-docker
-./flow.tcl -interactive
-run_floorplan
+Execute the below commands to run the floorplan:
+* docker
+* ./flow.tcl -interactive
+* run_floorplan
 After executing the above commands a floorplan def file will be generated. Below is the screenshot of the floorplan def file.
 
 ![generated floorplan def](https://github.com/Christi1992/Physical_design/assets/168098124/841a4c41-9f59-42e3-aaad-87b303204e70)
@@ -53,8 +53,8 @@ Below is the history of the commands executed so far
 
 Now we need to look into the layout of the floorplan def, for which we need magic tool
 
-Execute the below command to open magic
-magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130Alibs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def def read picorv32a.floorplan.def &
+Execute the below command to open magic:
+* magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130Alibs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def def read picorv32a.floorplan.def &
 
 Below is the correspoding screenshot attached.
 
@@ -70,6 +70,26 @@ Below is the correspoding screenshot attached.
 Below is the snip of a Pin and its metal layer information is present in the tkcon window
 
 ![tkcon tcl](https://github.com/Christi1992/Physical_design/assets/168098124/e25990ef-4f58-4c3f-a80d-91efc2baed01)
+
+# Placement
+Next we have to run placement stage.
+Execute the below commands 
+* docker
+* ./flow.tcl -interactive
+* run_placement
+
+After exxecuting these commands we will get the placement def file in the corresponding results directory
+Below is the screesnhot of the placement def and the magic command to open the placement layout
+
+![Placement magic ](https://github.com/Christi1992/Physical_design/assets/168098124/a9088760-9629-47ee-ae86-5a7239c2ae62)
+
+Below is the layout after placement
+
+![Placement magic file](https://github.com/Christi1992/Physical_design/assets/168098124/b518ad05-a02b-41f3-bcb4-8bc84aaf762b)
+
+
+
+
 
 
 
