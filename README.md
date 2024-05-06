@@ -60,6 +60,21 @@ Below is the correspoding screenshot attached.
 
 ![Opened magic](https://github.com/Christi1992/Physical_design/assets/168098124/c56b61d4-8345-4e4c-aac5-9353f31cfe2e)
 
+# Floorplan layout
+![Opened magic layout](https://github.com/Christi1992/Physical_design/assets/168098124/84383509-d48b-4ff7-999e-f9742f8c8aba)
+
+# An image of the decap cells and IO pins
+
+![floorplan layout](https://github.com/Christi1992/Physical_design/assets/168098124/e01c93ab-a1c7-44ef-9810-33f9adf48d80)
+
+Below is the snip of a Pin and its metal layer information is present in the tkcon window
+
+![tkcon tcl](https://github.com/Christi1992/Physical_design/assets/168098124/e25990ef-4f58-4c3f-a80d-91efc2baed01)
+
+
+
+
+
 
 
 
