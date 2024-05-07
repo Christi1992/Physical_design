@@ -296,8 +296,6 @@ Execute the below commands in openlane directory
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/b46b90ab-3045-4522-99ee-5e4ebc4f54e5)
 
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/9d10f8ad-8f4d-4805-9d27-49417a649f2d)
-
 We can start floorplan now with the below commands
 * init_floorplan
 * place_io
@@ -305,77 +303,5 @@ We can start floorplan now with the below commands
 
 **Floorplan is done now**
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/547761af-968d-4869-90dc-7b62477894c6)
-
-
-aaaaaaaaaaaaaaaaaaaa
-Now we are supposed to run synthesis
-First copy the libraries into src folder
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/292f1b86-d80e-413f-a4e3-c338e809f011)
-
-Make these changees in the script 
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/1455424a-aff9-4889-86af-da9219f9c9fe)
-
-Perform synthesis
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/d2e40a47-6a2c-458b-b792-4120db61f196)
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/8852766c-8484-4f2d-8e08-844d88e3294e)
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/038f949e-e37b-46d6-a461-85bd86d9c7b4)
-
-
-Let us do timing driven synthesis
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/cdc24417-5014-42f4-bec7-5e2e97de78c7)
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/95d017ed-0a1e-40e6-b65c-abe5f447a41d)
-
-
-Run floorplan now
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/a55ed3a2-37f1-4511-8dff-d72495d83c01)
-
-Run placement now
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/f1517b7b-210e-4dc0-9a94-fd949a06a8f8)
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/63bf364a-6643-4be9-8591-63006afa554e)
-
-Cells are abutted - Power and ground connections are shared
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/17df5c44-04d9-4fc3-8fc2-90ec785feda4)
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/689d6a0b-cb4d-42be-b45c-8277206f4575)
-
-Now we have to do sta
-Copied pre_sta.conf and base.sdc
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/78b12818-3bc3-455b-9931-f7f287ebab16)
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/3481661f-3cf6-4d34-b23c-9c634984db56)
-
-Result of sta
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/eae9d318-6a4c-4178-bee8-f81f1adc622d)
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/0517ec89-a85e-418c-af76-61ad81664770)
-
-Make a settings change in fanout and again do synthesis
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/e50f469f-1eab-48e2-ba84-9259125a4235)
-
-Slack after STA
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/c5f1a8fd-12ea-458e-9573-ed4dd6e0ae04)
-
-After synthesis settings change
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/1ba7a16e-e216-40ee-975a-5b78a549a643)
-
-
-
-
-
 
 
