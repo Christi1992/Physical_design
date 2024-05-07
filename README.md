@@ -306,15 +306,30 @@ DO placement now
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/e6b238c9-29a2-49c1-8bef-7a2114b97bdd)
 
+The placement layout can be checked now using magic tool
+Execute the below command
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/77f330bf-a2ca-452a-9acb-4e0cd5270b38)
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/2fd8dd92-cbfb-4413-b182-8e7cf6dadffc)
 
+**Our custom layout cells can be seen in the layout**
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/0c928907-6a1f-4226-adf2-0855a2be80b8)
 
+**All cells are perfectly aligned**
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/b5beda73-18e3-4ae4-88c8-cf8048babd94)
 
+We can proceed with timing analysis now, for which we need 2 files in SRC directory. One is pre_sta.conf and the other is my_base.sdc 
 
+**This is pre_sta.conf**
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/d8f22ca4-3c4a-4552-aa0c-5d5becd34c9d)
+
+**This is mybase.sdc file**
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/b06a69c3-c0e5-4d04-8de7-b8cb30eb080a)
 
 
 
