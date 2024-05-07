@@ -354,3 +354,9 @@ We get another netlist after completion of CTS as clock buffers are added and it
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/ec267547-ed4d-48b7-85a1-0fd490acb5c2)
 
+**Analyse timing with real clocks**
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/d2c0bf81-6623-499b-9d58-05f48ac9e826)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/698f4f2d-9eab-4992-9e3f-2d02e9c6f2be)
+
