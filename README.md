@@ -328,6 +328,10 @@ We have to copy two files to src directory of PICORV32A
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/d7328c36-91b3-494d-b59b-0ebabf28d658)
 
 **After STA**
+Slack is same as synthesis. SO STA is successful
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/1570ae44-3fa8-4f0e-ab70-a782b7f9d22c)
+
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/e719b884-9f29-4c25-9b9b-6c6a35ee2f5b)
 
