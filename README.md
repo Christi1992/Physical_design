@@ -346,5 +346,11 @@ Do floorplan on the new netlist now
   
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/03648a61-917c-407f-ac60-fc4a3331025c)
 
+* run_cts
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/6725b830-0a53-4369-b4ab-c1e1f8b546de)
+
+We get another netlist after completion of CTS as clock buffers are added and it will be updated in the netlist
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/ec267547-ed4d-48b7-85a1-0fd490acb5c2)
 
