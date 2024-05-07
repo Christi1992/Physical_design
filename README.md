@@ -268,6 +268,16 @@ Copy the lef file into SRC directory of PICORV
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/9ca9018d-b821-40fb-bb1f-2fa734b5469c)
 
+Now we are going to run from synthesis again by making some settings changes which will help in fixing the slack violations
+
+
+
+
+
+
+
+
+
 Now we are supposed to run synthesis
 First copy the libraries into src folder
 
