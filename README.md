@@ -286,13 +286,25 @@ Execute the below commands in openlane directory
 * add_lefs -src $lefs
 * run_synthesis
 
-The custom cells are added and the synthesis is complete now with a slack of -23.89
+**The custom cells are added and the synthesis is complete now with a slack of -23.89**
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/9d10f8ad-8f4d-4805-9d27-49417a649f2d)
 
+We can start floorplan now with the below commands
+* init_floorplan
+* place_io
+* tap_decap_or
 
+**Floorplan is done now**
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/95a2704e-c8b3-46c7-9948-0f0e8b5cce79)
 
+DO placement now
+* run_placement
+
+**Placement is done now**
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/e6b238c9-29a2-49c1-8bef-7a2114b97bdd)
 
 
 
