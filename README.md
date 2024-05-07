@@ -332,11 +332,5 @@ Slack is same as synthesis. SO STA is successful
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/1570ae44-3fa8-4f0e-ab70-a782b7f9d22c)
 
+# Clock tree synthesis TritonCTS and signal integrity
 
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/e719b884-9f29-4c25-9b9b-6c6a35ee2f5b)
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/da63525a-7684-4434-b8db-3650a9bb6abc)
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/73bc70ad-08de-4c3e-9c7e-77d0d6631ba9)
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/7785c4bf-d335-4eba-8a98-23888c35eb4a)
