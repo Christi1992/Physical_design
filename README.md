@@ -370,3 +370,47 @@ RUn CTS from placement def as we made a few settings changes
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/ca7275b8-f2e1-4d90-9c93-65ffe8aa49f2)
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/390f88b5-114c-4e0f-a7ec-034a6d347a6f)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/38cec09c-bee9-4d72-a797-c01e3e7c8f88)
+
+**Day 5 - Final stepls for RTL to GDS using tritonRoute and openSTA**
+**PDN GENERATION**
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/d93c92f2-2190-4443-8dc5-204483ffd2ef)
+
+**For PDN visualisation**
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/f335385f-2397-422f-934b-02059159e6fc)
+
+**PDN.def is genereated now** 
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/83013877-2873-4b0a-ac0e-3d89108cdca0)
+
+**Execute "run_routing"**
+**Routing done**
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/ca3ec0f7-c139-4dbf-b314-bed17899b086)
+
+**Triton routing**
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/69d9c877-f9b4-4390-ab02-dd9d4350a977)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/c5fcd768-285c-4d86-aee5-d930e6cc4af7)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/362d4c99-4bce-4181-be9e-2e5b5b8a6e35)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/07c551e8-67e6-4d3b-8c00-ff17eec4d0d8)
+
+**Routing output files generated**
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/55c7699b-23e5-4040-b6ba-4c069553f55f)
+
+**Fastroute guide**
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/5b5c345d-f08f-42f1-8e63-ec0de682e63d)
+
+**Routed layout in magic tool**
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/f2601585-ff3c-432e-b919-ba49574373b8)
+
