@@ -359,23 +359,31 @@ We get another netlist after completion of CTS as clock buffers are added and it
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/ec267547-ed4d-48b7-85a1-0fd490acb5c2)
 
 **Analyse timing with real clocks**
-
+**Include the def, lef, library files, sdc and do a report_check**
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/d2c0bf81-6623-499b-9d58-05f48ac9e826)
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/698f4f2d-9eab-4992-9e3f-2d02e9c6f2be)
 
 **Run CTS from placement def as we made a few settings changes
 **
+
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/43f6288b-820e-4c27-a483-1aaa166c90f4)
+
+**Check for the current def. It must be from placement**
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/07143baf-a99a-4cb5-96cc-771230c9a628)
 
+**run_cts**
+
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/f64b52db-09d4-4b82-aafd-9bd7cacbbd8a)
+
+**Slack MET**
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/ca7275b8-f2e1-4d90-9c93-65ffe8aa49f2)
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/390f88b5-114c-4e0f-a7ec-034a6d347a6f)
 
+**Clock skew report for setup and hold**  
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/38cec09c-bee9-4d72-a797-c01e3e7c8f88)
 
 **Day 5 - Final stepls for RTL to GDS using tritonRoute and openSTA**
@@ -418,6 +426,6 @@ We get another netlist after completion of CTS as clock buffers are added and it
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/f2601585-ff3c-432e-b919-ba49574373b8)
 
-The final GDS layout
+**The final GDS layout**
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/83166661-9c43-49bd-a848-3e02234e8ff2)
