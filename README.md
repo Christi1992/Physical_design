@@ -304,4 +304,35 @@ We can start floorplan now with the below commands
 **Floorplan is done now**
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/547761af-968d-4869-90dc-7b62477894c6)
 
+**Run placement using run_placement**
 
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/2b8ded39-d58a-4183-abb3-e9d001ec2a6d)
+
+Use magic layout to view the placement layout and to view our custom cells
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/7149592a-ada3-471c-814c-ff58920c9656)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/825280c3-310e-4df6-aa0d-81afe2882081)
+
+Power ground rails are shared by the cells through abutment
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/212572a6-477c-4733-9ecf-669dbbb2b5f9)
+
+## Lab steps to configure OpenSTA for post-synth timing analysis
+We have to copy two files to src directory of PICORV32A
+* pre_sta.conf
+* my_base.sdc
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/8fcec6f0-b798-4193-a4b9-bb675f717d07)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/d7328c36-91b3-494d-b59b-0ebabf28d658)
+
+**After STA**
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/e719b884-9f29-4c25-9b9b-6c6a35ee2f5b)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/da63525a-7684-4434-b8db-3650a9bb6abc)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/73bc70ad-08de-4c3e-9c7e-77d0d6631ba9)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/7785c4bf-d335-4eba-8a98-23888c35eb4a)
