@@ -269,6 +269,26 @@ Copy the lef file into SRC directory of PICORV
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/9ca9018d-b821-40fb-bb1f-2fa734b5469c)
 
 Now we are going to run from synthesis again by making some settings changes which will help in fixing the slack violations
+First copy the LEF file and the libraries into SRC folder of PICORV32A
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/6b7d2cb2-3569-456c-8690-b53670bbf664)
+
+Add these lines in config.tcl
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/6b2aee7e-4d9e-4787-a771-da77c8453346)
+
+Its time to run synthesis now
+Execute the below commands in openlane directory
+* docker
+* ./flow.tcl -interactive
+* prep -design picorv32a
+* set lefs [glob $::env(DESIGN_DIR)/src/*.lef
+* add_lefs -src $lefs
+* run_synthesis
+
+The custom cells are added and the synthesis is complete now with a slack of -23.89
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/9d10f8ad-8f4d-4805-9d27-49417a649f2d)
 
 
 
@@ -278,6 +298,21 @@ Now we are going to run from synthesis again by making some settings changes whi
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aaaaaaaaaaaaaaaaaaaa
 Now we are supposed to run synthesis
 First copy the libraries into src folder
 
