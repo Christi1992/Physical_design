@@ -49,7 +49,7 @@ After executing the above commands a floorplan def file will be generated. Below
 
 ![generated floorplan def](https://github.com/Christi1992/Physical_design/assets/168098124/841a4c41-9f59-42e3-aaad-87b303204e70)
 
-Below is the history of the commands executed so far 
+**Below is the history of the commands executed so far** 
 
 ![history](https://github.com/Christi1992/Physical_design/assets/168098124/a4eb73ba-33ad-4c6d-8109-179fb61b13df)
 
@@ -58,7 +58,7 @@ Now we need to look into the layout of the floorplan def, for which we need magi
 Execute the below command to open magic:
 * magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130Alibs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def def read picorv32a.floorplan.def &
 
-Below is the correspoding screenshot attached.
+**Below is the correspoding screenshot attached.**
 
 ![Opened magic](https://github.com/Christi1992/Physical_design/assets/168098124/c56b61d4-8345-4e4c-aac5-9353f31cfe2e)
 
@@ -82,11 +82,11 @@ Execute the below commands
 * run_placement
 
 After exxecuting these commands we will get the placement def file in the corresponding results directory
-Below is the screesnhot of the placement def and the magic command to open the placement layout
+B**elow is the screesnhot of the placement def and the magic command to open the placement layout**
 
 ![Placement magic ](https://github.com/Christi1992/Physical_design/assets/168098124/a9088760-9629-47ee-ae86-5a7239c2ae62)
 
-Below is the layout after placement
+**Layout after placement**
 
 ![Placement magic file](https://github.com/Christi1992/Physical_design/assets/168098124/b518ad05-a02b-41f3-bcb4-8bc84aaf762b)
 
@@ -105,13 +105,13 @@ The next task is to clone the inverter from Githouse repository
 Execute the below commad in your work directory
 * git clone https://github.com/nickson-jose/vsdstdcelldesign.git
 
-I have attached a screenshot of the above explained process
+**A screenshot of the above explained process**
 
 ![Performed git clone](https://github.com/Christi1992/Physical_design/assets/168098124/f6d4f27c-a941-40ec-bf33-1304e95ec089)
 
 ![Copied 130tech file to vsdstdcelldesign directory](https://github.com/Christi1992/Physical_design/assets/168098124/c3205906-2eb1-406a-9736-5293f886f059)
 
-Open the inverter magic file sky130_inv.mag 
+**Open the inverter magic file sky130_inv.mag** 
 
 ![Magic command to load inverter cell](https://github.com/Christi1992/Physical_design/assets/168098124/bbe26d09-a86d-4f2c-b439-4fde43ab4018)
 
@@ -131,7 +131,7 @@ Open the inverter magic file sky130_inv.mag
 
 ![extracted](https://github.com/Christi1992/Physical_design/assets/168098124/8d537849-8d5e-45c7-8c1a-8da913a55c8f)
 
-Below is the screenshot of the extracted spice file
+**Screenshot of the extracted spice file**
 
 ![Spice file created](https://github.com/Christi1992/Physical_design/assets/168098124/b6569a27-a5db-427d-90b5-f7c51cec95ec)
 
@@ -140,7 +140,7 @@ Perform the spice simulation using the below commands
 
 ![Spice simulation result](https://github.com/Christi1992/Physical_design/assets/168098124/82f6c19f-cf92-4836-9e2d-8a32e5ae7fd5)
 
-To observe the waveform execute the below command
+**To observe the waveform execute the below command**
 * plot y vs time a
 
 ![output plot of spicce](https://github.com/Christi1992/Physical_design/assets/168098124/d3dc28c0-a954-496a-9fa2-37300fdc72ba)
@@ -156,22 +156,25 @@ Now we need to calculate the following:
 * Rise time = (2.1933 - 2.1306)*10^-9 = 62.7 ps
 Below are the correspoding screenshots
 
-# 20 %
+**20 %**
 
 ![20 percent of 3 3V rise transition](https://github.com/Christi1992/Physical_design/assets/168098124/81a0fdcd-897a-4b79-9e8f-cbd5fb260ddc)
 
-# 80%
+**80%**
 ![80 percent of rise transition](https://github.com/Christi1992/Physical_design/assets/168098124/e56262e0-6903-4b1a-aeaf-926ac8b8f4cf)
 
 ![Correct rise values](https://github.com/Christi1992/Physical_design/assets/168098124/d6959262-b612-4c69-bdb9-2c34090550b9)
 
 * Fall time: Time take for the signal to transition from 80% to 20% of its final value
 * Fall time = (4.0955 - 4.05353)*10^-9 = 41.97 ps
-Below are the corresponding screenshots
+
+**Below are the corresponding screenshots**
 
 ![fall transition 20%](https://github.com/Christi1992/Physical_design/assets/168098124/d481f6af-b1e1-4ea2-90e3-1dea949980d3)
 
 ![fall transition 80%](https://github.com/Christi1992/Physical_design/assets/168098124/13dcaffb-6276-4d6a-be99-66986f196baf)
+
+**Fall transition values**
 
 ![fall transition](https://github.com/Christi1992/Physical_design/assets/168098124/648dc525-3eb8-4137-81a9-51585327044d)
 
@@ -185,7 +188,7 @@ Below are the corresponding screenshots
 
 ![fall delay values](https://github.com/Christi1992/Physical_design/assets/168098124/5c87399b-1f89-416b-a27a-033870a70bd3)
 
-# DRC correction and rules
+**DRC correction and rules**
 For DRC correction download the files using the below commands
 
 * wget http://opencircuitdesign.comopen_pdks/archive/drc_tests.tgz
@@ -200,7 +203,7 @@ Open the met3.mag file
 
 ![met3 meg file](https://github.com/Christi1992/Physical_design/assets/168098124/72b27169-54e4-4910-a0b4-d4be6de1bb59)
 
-To see contact cuts 
+**To see contact cuts**
 * cif see VIA2
 
 ![cif see via2](https://github.com/Christi1992/Physical_design/assets/168098124/a0a639ce-b131-484e-9330-1e136c7242c7)
@@ -219,14 +222,14 @@ Now load the tech file and do check drc to fix the poly.9 error
 
 ![fixed poly error](https://github.com/Christi1992/Physical_design/assets/168098124/27b4b22a-8752-41b5-94f6-9b4dc245aefe)
 
-# Lab challenge exercise to describe DRC error as geometric construct
+**Lab challenge exercise to describe DRC error as geometric construct**
 Load nwell.mag and execute the following commands
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/151da57d-644a-45a7-8156-c08fba775257)
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/b06700a4-2105-4420-83c5-294cf5974440)
 
-# Lab challenge exercise to find the missing or incorrect rule that should be fixed
+**Lab challenge exercise to find the missing or incorrect rule that should be fixed**
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/8a542e9c-d2be-4c8f-87ed-6f86b43ba946)
 
 Make the below changes mentioend
@@ -243,7 +246,7 @@ Go to track.info
 For example li1 is in horizontal direction with a offset of 0.23 and a pitch of 0.46
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/745a7ac8-8deb-4eb7-811c-c61ee6366be7)
 
-Now check if ports A and Y are on the intersection of Li tracks
+**Now check if ports A and Y are on the intersection of Li tracks**
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/afe6fcec-31f6-447d-8737-11b826064530)
 
@@ -251,14 +254,15 @@ Now check if ports A and Y are on the intersection of Li tracks
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/391908f0-d950-4db1-99fa-168672772b85)
 
-Open the saved .mag using magic
+**Open the saved .mag using magic**
+
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/afe5a303-fba1-4c07-b647-1ae511be2421)
 
-Create a lef file
+**Create a lef file**
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/40b0ff4e-98e9-4d74-9656-b8764aa99d99)
 
-Contents of LEF file
+**Contents of LEF file**
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/c217954f-1243-4a0f-80fa-0c348775c500)
 
@@ -308,13 +312,13 @@ We can start floorplan now with the below commands
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/2b8ded39-d58a-4183-abb3-e9d001ec2a6d)
 
-Use magic layout to view the placement layout and to view our custom cells
+**Use magic layout to view the placement layout and to view our custom cells**
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/7149592a-ada3-471c-814c-ff58920c9656)
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/825280c3-310e-4df6-aa0d-81afe2882081)
 
-Power ground rails are shared by the cells through abutment
+**Power ground rails are shared by the cells through abutment**
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/212572a6-477c-4733-9ecf-669dbbb2b5f9)
 
@@ -338,15 +342,15 @@ Updated the old netlist with the new netlist
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/53bed49c-14c3-48ba-90c4-9dfc60409f89)
 
-Do floorplan on the new netlist now
-* run_floorplan
+**Do floorplan on the new netlist now**
+**run_floorplan**
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/a67176b5-4193-41a8-a911-646e655082e2)
 
-* run_placemnt
+**run_placemnt**
   
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/03648a61-917c-407f-ac60-fc4a3331025c)
 
-* run_cts
+**run_cts**
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/6725b830-0a53-4369-b4ab-c1e1f8b546de)
 
