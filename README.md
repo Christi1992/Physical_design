@@ -328,9 +328,23 @@ We have to copy two files to src directory of PICORV32A
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/d7328c36-91b3-494d-b59b-0ebabf28d658)
 
 **After STA**
-Slack is same as synthesis. SO STA is successful
+Slack is met. SO STA is successful
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/1570ae44-3fa8-4f0e-ab70-a782b7f9d22c)
 
 # Clock tree synthesis TritonCTS and signal integrity
+
+Updated the old netlist with the new netlist
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/53bed49c-14c3-48ba-90c4-9dfc60409f89)
+
+Do floorplan on the new netlist now
+* run_floorplan
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/a67176b5-4193-41a8-a911-646e655082e2)
+
+* run_placemnt
+  
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/03648a61-917c-407f-ac60-fc4a3331025c)
+
+
 
