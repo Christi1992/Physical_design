@@ -414,3 +414,6 @@ RUn CTS from placement def as we made a few settings changes
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/f2601585-ff3c-432e-b919-ba49574373b8)
 
+The final GDS layout
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/83166661-9c43-49bd-a848-3e02234e8ff2)
