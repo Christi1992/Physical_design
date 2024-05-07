@@ -288,6 +288,14 @@ Execute the below commands in openlane directory
 
 **The custom cells are added and the synthesis is complete now with a slack of -23.89**
 
+**We can make a settings change now to imprive slack**
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/2277bafc-06dd-4f45-9420-9bcf76cb759e)
+
+**SLACK is MET now!!**
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/b46b90ab-3045-4522-99ee-5e4ebc4f54e5)
+
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/9d10f8ad-8f4d-4805-9d27-49417a649f2d)
 
 We can start floorplan now with the below commands
@@ -296,47 +304,7 @@ We can start floorplan now with the below commands
 * tap_decap_or
 
 **Floorplan is done now**
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/95a2704e-c8b3-46c7-9948-0f0e8b5cce79)
-
-DO placement now
-* run_placement
-
-**Placement is done now**
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/e6b238c9-29a2-49c1-8bef-7a2114b97bdd)
-
-The placement layout can be checked now using magic tool
-Execute the below command
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/77f330bf-a2ca-452a-9acb-4e0cd5270b38)
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/2fd8dd92-cbfb-4413-b182-8e7cf6dadffc)
-
-**Our custom layout cells can be seen in the layout**
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/0c928907-6a1f-4226-adf2-0855a2be80b8)
-
-**All cells are perfectly aligned**
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/b5beda73-18e3-4ae4-88c8-cf8048babd94)
-
-We can proceed with timing analysis now, for which we need 2 files in SRC directory. One is pre_sta.conf and the other is my_base.sdc 
-
-**This is pre_sta.conf**
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/d8f22ca4-3c4a-4552-aa0c-5d5becd34c9d)
-
-**This is mybase.sdc file**
-
-![image](https://github.com/Christi1992/Physical_design/assets/168098124/b06a69c3-c0e5-4d04-8de7-b8cb30eb080a)
-
-
-
-
-
-
-
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/547761af-968d-4869-90dc-7b62477894c6)
 
 
 aaaaaaaaaaaaaaaaaaaa
