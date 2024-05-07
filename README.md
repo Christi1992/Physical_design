@@ -360,3 +360,13 @@ We get another netlist after completion of CTS as clock buffers are added and it
 
 ![image](https://github.com/Christi1992/Physical_design/assets/168098124/698f4f2d-9eab-4992-9e3f-2d02e9c6f2be)
 
+RUn CTS from placement def as we made a few settings changes
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/43f6288b-820e-4c27-a483-1aaa166c90f4)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/07143baf-a99a-4cb5-96cc-771230c9a628)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/f64b52db-09d4-4b82-aafd-9bd7cacbbd8a)
+
+![image](https://github.com/Christi1992/Physical_design/assets/168098124/ca7275b8-f2e1-4d90-9c93-65ffe8aa49f2)
+
